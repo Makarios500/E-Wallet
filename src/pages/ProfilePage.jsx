@@ -62,14 +62,14 @@ export default function ProfilePage() {
   };
 
   return (
-    <>
-      <div className="m-5">
-        <h1 className="bg-green-600 flex justify-center mb-8 items-center max-w-[20%] m-auto p-3 rounded-2xl">
+    <div className="m-5 flex flex-col content-center items-center gap-3">
+      <div className=" flex flex-col ">
+        <h1 className="mt-4 bg-green-600 flex justify-center mb-8 items-center  m-auto p-3 rounded-2xl">
           Your Balance is : <span className="ml-3 text-3xl ">{balance}</span>
         </h1>
         <div className="text-center">
-          <label>Enter Amount : </label>
-          <input ref={amountInput} type="Enter Amount" className="input" />
+          <p className="mb-3">Enter Amount : </p>
+          <input ref={amountInput} type="Enter Amount" className="input mb-5" />
           <button onClick={Withdraw} className="btn btn-error btn-soft ml-3">
             Withdraw
           </button>
@@ -79,7 +79,7 @@ export default function ProfilePage() {
         </div>
       </div>
       <div>
-        <table className="table bg-gray-700 mt-8 capitalize text-center">
+        <table className="table bg-gray-700 mt-8 capitalize text-center w-screen">
           <thead>
             <tr>
               <td>#</td>
@@ -106,6 +106,6 @@ export default function ProfilePage() {
           </tbody>
         </table>
       </div>
-    </>
+    </div>
   );
 }

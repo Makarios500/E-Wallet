@@ -46,9 +46,9 @@ export default function LoginPage() {
     <div className="bg-gray-900 flex items-center w-full h-screen justify-center">
       <form
         onSubmit={login}
-        className=" p-10 shadow rounded-2xl flex flex-col gap-6 bg-black/30"
+        className="w-[90%] md:w-[80%] lg:w-[50%] p-10 shadow rounded-2xl flex flex-col gap-6 bg-black/30"
       >
-        <h1 className="text-black w-125 text-center bg-gray-700 p-3 rounded-2xl">
+        <h1 className="text-black text-center bg-gray-700 h-full p-3 rounded-2xl">
           Welcome user Please Login
         </h1>
         <input
