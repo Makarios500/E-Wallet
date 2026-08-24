@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LoginPage from "./pages/Login";
-import ProfilePage from "./pages/profilePage";
 import { Toaster } from "react-hot-toast";
+import ProfilePage from "./pages/ProfilePage";
+
 
 export default function App() {
   return (
