@@ -10,15 +10,8 @@ export default function LoginPage() {
   let users = [
     {
       id: 1,
-      email: "makarios@gmail.com",
+      email: "user@gmail.com",
       password: 1234,
-      balance: 0,
-      transaction: [],
-    },
-    {
-      id: 2,
-      email: "makarios2@gmail.com",
-      password: 12345,
       balance: 0,
       transaction: [],
     },
