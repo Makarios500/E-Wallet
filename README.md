@@ -1,7 +1,7 @@
 > [!NOTE]
 > **Demo Credentials**
 > - **Email:** `user@gmail.com`
-> - **Password:** `1234
+> - **Password:** 1234
 
 # React + Vite
 
